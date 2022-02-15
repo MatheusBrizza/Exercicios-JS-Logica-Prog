@@ -20,6 +20,10 @@
 
     <h3>Exercício 06</h3>
 
+    <p>Crie uma função chamada encontrarNumero, que recebe um número X por parâmetro e outro parâmetro sendo um array
+        [2, 7, 8, 3]. A função deve retornar se foi encotrado ou não o número X dentro do array;
+        </p>
+
     <div>
         <input type="number" id="input_01">
     </div>
@@ -44,7 +48,7 @@
         const array = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
 
         const achou = array.find(element => element == input_01_value)
-            console.log(achou)
+        console.log(achou)
         if (achou) {
 
             const divResultado = document.getElementById("div_resultado")
@@ -53,8 +57,8 @@
         } else {
             const divResultado = document.getElementById("div_resultado")
 
-        divResultado.innerHTML = 'valor não encontrado'
+            divResultado.innerHTML = 'valor não encontrado'
         }
-        
+
     }
 </script>
